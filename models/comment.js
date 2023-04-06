@@ -5,13 +5,12 @@ module.exports = (sequelize, DataTypes) => {
             autoIncrement: true,
             primaryKey: true,
         },
-        userId: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-            allowEmpty: false,
+        userName: {
+            type: DataTypes.STRING,
+            required: true,
         },
         content: {
-            type: DataTypes.STRING,
+            type: DataTypes.TEXT("long"),
         },
     });
 };

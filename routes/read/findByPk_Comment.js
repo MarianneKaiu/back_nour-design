@@ -1,7 +1,7 @@
 const { Comment } = require("../../db/sequelize");
 
 module.exports = (app) => {
-    app.get("/api/comment/:id", (req, res) => {
+    app.get("/api/comments/:id", (req, res) => {
         Comment.findByPk(req.params.id)
             .then((comment) => {
                 if (Comment === null) {

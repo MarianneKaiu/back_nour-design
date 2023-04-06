@@ -5,7 +5,7 @@ module.exports = (sequelize, DataTypes) => {
             autoIncrement: true,
             primaryKey: true,
         },
-        pseudo: {
+        userName: {
             type: DataTypes.STRING,
             unique: {
                 msg: "Ce pseudo est déja utilisé, veuillez en choisir un nouveau",
