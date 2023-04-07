@@ -14,35 +14,23 @@ app.use(cors());
 
 sequelize.initDb();
 
-// require("./routes/read/findAll_Agencement")(app);
-// require("./routes/read/findAll_Meuble")(app);
-// require("./routes/read/findAll_PetitsObjets")(app);
-require("./routes/read/findAll_Comment")(app);
-require("./routes/read/findAll_Image")(app);
+////////////////////////////////////ADMIN////////////////////////////////////////////////////////
+require("./routes/Crud_Admin/adm_create_Image")(app);
+require("./routes/Crud_Admin/adm_update_image")(app);
+require("./routes/Crud_Admin/adm_delete_Image")(app);
+////////////////////////////////////ADMIN////////////////////////////////////////////////////////
 
-// require("./routes/read/findByPk_Agencement")(app);
-// require("./routes/read/findByPk_Meuble")(app);
-// require("./routes/read/findByPk_PetitObjet")(app);
-require("./routes/read/findByPk_Comment")(app);
-require("./routes/read/findByPk_Image")(app);
+require("./routes/Crud_Comment/findAll_Comment")(app);
+require("./routes/Crud_Image/findAll_Image")(app);
 
-// require("./routes/update/update_Agencement")(app);
-// require("./routes/update/update_Meuble")(app);
-// require("./routes/update/update_PetitObjet")(app);
-require("./routes/update/update_Comment")(app);
-require("./routes/update/update_Image")(app);
+require("./routes/Crud_Comment/findByPk_Comment")(app);
+require("./routes/Crud_Image/findByPk_Image")(app);
 
-// require("./routes/create/create_Agencement")(app);
-// require("./routes/create/create_Meuble")(app);
-// require("./routes/create/create_PetitObjet")(app);
-require("./routes/create/create_Comment")(app);
-require("./routes/create/create_Image")(app);
+require("./routes/Crud_Comment/update_Comment")(app);
 
-// require("./routes/delete/delete_Agencement")(app);
-// require("./routes/delete/delete_Meuble")(app);
-// require("./routes/delete/delete_PetitObjet")(app);
-require("./routes/delete/delete_Comment")(app);
-require("./routes/delete/delete_Image")(app);
+require("./routes/Crud_Comment/create_Comment")(app);
+
+require("./routes/Crud_Comment/delete_Comment")(app);
 
 app.listen(
     PORT,
