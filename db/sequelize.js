@@ -13,6 +13,7 @@ const petitsObjets = require("../db/mock_PetitsObjets");
 const meubles = require("../db/mock_Meuble");
 const comments = require("../db/mock_Comment");
 const images = require("../db/mock_images");
+const users = require("../db/mock_Users");
 //FIN DE PHASE TEST
 
 //Initialisation de la db via sequelize
@@ -42,7 +43,8 @@ const initDb = () => {
                 chemin: image.chemin,
                 description: image.description,
                 categorie: image.categorie,
-            }).then((image) => console.log(image.toJSON()));
+            });
+            // .then((image) => console.log(image.toJSON()));
         });
         agencements.map((agencement) => {
             Agencement.create({
@@ -74,14 +76,15 @@ const initDb = () => {
                 content: comment.content,
             }); //.then((comment) => console.log(`comment n° ${comment.id} ==> OK`))
         });
-        bcrypt.hash("tchoubi", 10).then((hash) => {
-            User.create({
-                pseudo: "tchoubi",
-                eMail: "tchoubi@tchoubi.fr",
-                password: hash,
+        users.map((user) => {
+            bcrypt.hash(user.password, 10).then((hash) => {
+                User.create({
+                    userName: user.userName,
+                    eMail: user.eMail,
+                    password: hash,
+                }).then((user) => console.log(user));
             });
         });
-
         //FIN DE PHASE DE TEST
     });
 };
@@ -94,4 +97,5 @@ module.exports = {
     PetitObjet,
     Comment,
     Image,
+    User,
 };

@@ -5,6 +5,7 @@ const PORT = process.env.PORT || 4000;
 const cors = require("cors");
 
 const app = express();
+
 app.get("/api", (req, res) => {
     res.send({ message: "Hello from server !" });
 });
@@ -18,10 +19,17 @@ sequelize.initDb();
 require("./routes/Crud_Admin/adm_create_Image")(app);
 require("./routes/Crud_Admin/adm_update_image")(app);
 require("./routes/Crud_Admin/adm_delete_Image")(app);
+
+require("./routes/Crud_User/findAll_users")(app);
+require("./routes/Crud_User/findByPk_user.js")(app);
+require("./routes/Crud_User/create_user")(app);
+require("./routes/Crud_User/update_user")(app);
+require("./routes/Crud_User/delete_user")(app);
+
 ////////////////////////////////////ADMIN////////////////////////////////////////////////////////
 
 require("./routes/Crud_Comment/findAll_Comment")(app);
-require("./routes/Crud_Image/findAll_Image")(app);
+require("./routes/Crud_Image/findAll_Images")(app);
 
 require("./routes/Crud_Comment/findByPk_Comment")(app);
 require("./routes/Crud_Image/findByPk_Image")(app);
