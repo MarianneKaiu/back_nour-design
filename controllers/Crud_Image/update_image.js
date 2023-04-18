@@ -1,7 +1,7 @@
 const { Image } = require("../../db/sequelize");
 
 module.exports = (app) => {
-    app.put("/api/admin/images/:id", (req, res) => {
+    app.put("/api/images/:id", (req, res) => {
         const id = req.params.id;
 
         Image.update(req.body, {

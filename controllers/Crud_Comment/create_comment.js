@@ -1,7 +1,8 @@
 const { Comment } = require("../../db/sequelize");
+const auth = require("../../auth/auth");
 
 module.exports = (app) => {
-    app.post("/api/comments", (req, res) => {
+    app.post("/api/comments", auth, (req, res) => {
         Comment.create(req.body)
             .then((comment) => {
                 const message = `Le message à bien été créé.`;

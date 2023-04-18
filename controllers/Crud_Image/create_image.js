@@ -1,7 +1,7 @@
 const { Image } = require("../../db/sequelize");
 
 module.exports = (app) => {
-    app.post("/api/admin/images", (req, res) => {
+    app.post("/api/images", (req, res) => {
         Image.create(req.body)
             .then((image) => {
                 const message = `L'image à bien étée ajoutée`;
