@@ -1,9 +1,10 @@
 const { User } = require("../../db/sequelize");
 const bcrypt = require("bcrypt");
 const { ValidationError } = require("sequelize");
+const auth = require("../../auth/auth");
 
 module.exports = (app) => {
-    app.put("/api/users/:id", (req, res) => {
+    app.put("/api/users/:id", auth, (req, res) => {
         bcrypt.hash(req.body.password, 10).then((hash) => {
             const id = req.params.id;
             if (id === null) {

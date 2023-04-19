@@ -22,8 +22,8 @@ module.exports = (sequelize, DataTypes) => {
             required: true,
         },
         role: {
-            type: DataTypes.INTEGER,
-            default: 0,
+            type: DataTypes.BOOLEAN,
+            default: false,
         },
     });
 };
