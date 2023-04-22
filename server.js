@@ -1,5 +1,8 @@
+require("dotenv").config({ path: "./config/.env" });
 const express = require("express");
 const cors = require("cors");
+// const cookieSession = require("cookie-session");
+// const urlEncoded = require("urlencode");
 
 const sequelize = require("./db/sequelize");
 const bodyParser = require("body-parser");
@@ -7,15 +10,24 @@ const bodyParser = require("body-parser");
 const PORT = process.env.PORT || 4000;
 
 const app = express();
+app.use(cors());
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
+// app.use(
+//     cookieSession({
+//         name: "user-session",
+//         secret: process.env.COOKIE_SECRET,
+//         httpOnly: true,
+//         maxAge: 1000 * 60 * 60 * 24,
+//     })
+// );
+
+sequelize.initDb();
 
 app.get("/api", (req, res) => {
     res.send({ message: "Hello from server !" });
 });
-
-app.use(bodyParser.json());
-app.use(cors());
-
-sequelize.initDb();
 
 require("./controllers/Crud_User/findAll_users")(app);
 

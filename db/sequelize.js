@@ -82,7 +82,7 @@ const initDb = () => {
                     userName: user.userName,
                     eMail: user.eMail,
                     password: hash,
-                }).then((user) => console.log(user));
+                }); //.then((user) => console.log(user));
             });
         });
         //FIN DE PHASE DE TEST

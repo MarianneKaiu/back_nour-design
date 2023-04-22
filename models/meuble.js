@@ -1,27 +1,27 @@
-module.exports = (sequelize, DataTypes) => {
+module.exports = (sequelize, Sequelize) => {
     return sequelize.define("meuble", {
         id: {
-            type: DataTypes.INTEGER,
+            type: Sequelize.INTEGER,
             autoIncrement: true,
             primaryKey: true,
         },
         name: {
-            type: DataTypes.STRING,
+            type: Sequelize.STRING,
             allowEmpty: false,
             allowNull: false,
         },
         description: {
-            type: DataTypes.STRING,
+            type: Sequelize.STRING,
             allowEmpty: true,
             allowNull: true,
         },
         prix: {
-            type: DataTypes.INTEGER,
+            type: Sequelize.INTEGER,
             allowEmpty: true,
             allowNull: true,
         },
         categorie: {
-            type: DataTypes.ENUM,
+            type: Sequelize.ENUM,
             values: ["Neuf", "Réemplois", "Mixte"],
         },
     });
