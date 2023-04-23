@@ -5,7 +5,7 @@ const images = [
         chemin: "./images/Nour-Edde_Amenagement-chambre-enfant-bois-recycle",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo natus adipisci, eos soluta recusandae vitae explicabo illum rem, eaque tempora beatae porro vero quod? Cumque velit error quo sunt alias odit dolorum perferendis in, voluptatibus porro ducimus dicta illum officiis sequi minus. Corporis eligendi voluptates dolore ut ex? Voluptas.",
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -14,7 +14,7 @@ const images = [
         chemin: "./images/Nour-Edde_Atelier-Bois-Recycle",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo natus adipisci, eos soluta recusandae vitae explicabo illum rem, eaque tempora beatae porro vero quod? Cumque velit error quo sunt alias odit dolorum perferendis in, voluptatibus porro ducimus dicta illum officiis sequi minus. Corporis eligendi voluptates dolore ut ex? Voluptas.",
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -23,7 +23,7 @@ const images = [
         chemin: "./images/Nour-Edde_Bibliotheque-bois-recycle-2",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo natus adipisci, eos soluta recusandae vitae explicabo illum rem, eaque tempora beatae porro vero quod? Cumque velit error quo sunt alias odit dolorum perferendis in, voluptatibus porro ducimus dicta illum officiis sequi minus. Corporis eligendi voluptates dolore ut ex? Voluptas.",
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -32,7 +32,7 @@ const images = [
         chemin: "./images/Nour-Edde_Bibliotheque-bois-recycle-3",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo natus adipisci, eos soluta recusandae vitae explicabo illum rem, eaque tempora beatae porro vero quod? Cumque velit error quo sunt alias odit dolorum perferendis in, voluptatibus porro ducimus dicta illum officiis sequi minus. Corporis eligendi voluptates dolore ut ex? Voluptas.",
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -41,7 +41,7 @@ const images = [
         chemin: "./images/Nour-Edde_Bibliotheque-bois-recycle-Avec-Espace-de-Lecture",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo natus adipisci, eos soluta recusandae vitae explicabo illum rem, eaque tempora beatae porro vero quod? Cumque velit error quo sunt alias odit dolorum perferendis in, voluptatibus porro ducimus dicta illum officiis sequi minus. Corporis eligendi voluptates dolore ut ex? Voluptas.",
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -50,7 +50,7 @@ const images = [
         chemin: "./images/Nour-Edde_Bibliotheque-bois-recycle",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo natus adipisci, eos soluta recusandae vitae explicabo illum rem, eaque tempora beatae porro vero quod? Cumque velit error quo sunt alias odit dolorum perferendis in, voluptatibus porro ducimus dicta illum officiis sequi minus. Corporis eligendi voluptates dolore ut ex? Voluptas.",
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -59,7 +59,7 @@ const images = [
         chemin: "./images/Nour-Edde_Bougeoir-Bois-Recycle",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo natus adipisci, eos soluta recusandae vitae explicabo illum rem, eaque tempora beatae porro vero quod? Cumque velit error quo sunt alias odit dolorum perferendis in, voluptatibus porro ducimus dicta illum officiis sequi minus. Corporis eligendi voluptates dolore ut ex? Voluptas.",
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -68,7 +68,7 @@ const images = [
         chemin: "./images/Nour-Edde_Bougeoir-Bois-Recycle-2",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo natus adipisci, eos soluta recusandae vitae explicabo illum rem, eaque tempora beatae porro vero quod? Cumque velit error quo sunt alias odit dolorum perferendis in, voluptatibus porro ducimus dicta illum officiis sequi minus. Corporis eligendi voluptates dolore ut ex? Voluptas.",
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -77,7 +77,7 @@ const images = [
         chemin: "./images/Nour-Edde_Bougeoir-Bois-Recycle-3",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo natus adipisci, eos soluta recusandae vitae explicabo illum rem, eaque tempora beatae porro vero quod? Cumque velit error quo sunt alias odit dolorum perferendis in, voluptatibus porro ducimus dicta illum officiis sequi minus. Corporis eligendi voluptates dolore ut ex? Voluptas.",
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -86,7 +86,7 @@ const images = [
         chemin: "./images/Nour-Edde_Desserte-bois-reycle",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo natus adipisci, eos soluta recusandae vitae explicabo illum rem, eaque tempora beatae porro vero quod? Cumque velit error quo sunt alias odit dolorum perferendis in, voluptatibus porro ducimus dicta illum officiis sequi minus. Corporis eligendi voluptates dolore ut ex? Voluptas.",
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -95,7 +95,7 @@ const images = [
         chemin: "./images/Nour-Edde_Desserte-bois-reycle-2",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo natus adipisci, eos soluta recusandae vitae explicabo illum rem, eaque tempora beatae porro vero quod? Cumque velit error quo sunt alias odit dolorum perferendis in, voluptatibus porro ducimus dicta illum officiis sequi minus. Corporis eligendi voluptates dolore ut ex? Voluptas.",
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -104,7 +104,7 @@ const images = [
         chemin: "./images/Nour-Edde_Desserte-bois-reycle-3",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo natus adipisci, eos soluta recusandae vitae explicabo illum rem, eaque tempora beatae porro vero quod? Cumque velit error quo sunt alias odit dolorum perferendis in, voluptatibus porro ducimus dicta illum officiis sequi minus. Corporis eligendi voluptates dolore ut ex? Voluptas.",
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -113,7 +113,7 @@ const images = [
         chemin: "./images/Nour-Edde_Escalier-avec-rangements-bois-recycles",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo natus adipisci, eos soluta recusandae vitae explicabo illum rem, eaque tempora beatae porro vero quod? Cumque velit error quo sunt alias odit dolorum perferendis in, voluptatibus porro ducimus dicta illum officiis sequi minus. Corporis eligendi voluptates dolore ut ex? Voluptas.",
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -122,7 +122,7 @@ const images = [
         chemin: "./images/Nour-Edde_Garde-corp-Bois-Recycle-3",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo natus adipisci, eos soluta recusandae vitae explicabo illum rem, eaque tempora beatae porro vero quod? Cumque velit error quo sunt alias odit dolorum perferendis in, voluptatibus porro ducimus dicta illum officiis sequi minus. Corporis eligendi voluptates dolore ut ex? Voluptas.",
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -131,7 +131,7 @@ const images = [
         chemin: "./images/Nour-Edde_Garde-corp-Bois-Recycle-2",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo natus adipisci, eos soluta recusandae vitae explicabo illum rem, eaque tempora beatae porro vero quod? Cumque velit error quo sunt alias odit dolorum perferendis in, voluptatibus porro ducimus dicta illum officiis sequi minus. Corporis eligendi voluptates dolore ut ex? Voluptas.",
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -140,7 +140,7 @@ const images = [
         chemin: "./images/Nour-Edde_Garde-corp-Bois-Recycle",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo natus adipisci, eos soluta recusandae vitae explicabo illum rem, eaque tempora beatae porro vero quod? Cumque velit error quo sunt alias odit dolorum perferendis in, voluptatibus porro ducimus dicta illum officiis sequi minus. Corporis eligendi voluptates dolore ut ex? Voluptas.",
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -149,7 +149,7 @@ const images = [
         chemin: "./images/Nour-Edde_Grand-Coffre-de-rangement-bois-recycle",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo natus adipisci, eos soluta recusandae vitae explicabo illum rem, eaque tempora beatae porro vero quod? Cumque velit error quo sunt alias odit dolorum perferendis in, voluptatibus porro ducimus dicta illum officiis sequi minus. Corporis eligendi voluptates dolore ut ex? Voluptas.",
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -158,7 +158,7 @@ const images = [
         chemin: "./images/Nour-Edde_Meuble-Bois-Recycle",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo natus adipisci, eos soluta recusandae vitae explicabo illum rem, eaque tempora beatae porro vero quod? Cumque velit error quo sunt alias odit dolorum perferendis in, voluptatibus porro ducimus dicta illum officiis sequi minus. Corporis eligendi voluptates dolore ut ex? Voluptas.",
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -167,7 +167,7 @@ const images = [
         chemin: "./images/Nour-Edde_Meuble-haut-bois-recycle-4",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo natus adipisci, eos soluta recusandae vitae explicabo illum rem, eaque tempora beatae porro vero quod? Cumque velit error quo sunt alias odit dolorum perferendis in, voluptatibus porro ducimus dicta illum officiis sequi minus. Corporis eligendi voluptates dolore ut ex? Voluptas.",
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -176,7 +176,7 @@ const images = [
         chemin: "./images/Nour-Edde_Meuble-haut-bois-recycle-3",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo natus adipisci, eos soluta recusandae vitae explicabo illum rem, eaque tempora beatae porro vero quod? Cumque velit error quo sunt alias odit dolorum perferendis in, voluptatibus porro ducimus dicta illum officiis sequi minus. Corporis eligendi voluptates dolore ut ex? Voluptas.",
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -185,7 +185,7 @@ const images = [
         chemin: "./images/Nour-Edde_Meuble-haut-bois-recycle-2",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo natus adipisci, eos soluta recusandae vitae explicabo illum rem, eaque tempora beatae porro vero quod? Cumque velit error quo sunt alias odit dolorum perferendis in, voluptatibus porro ducimus dicta illum officiis sequi minus. Corporis eligendi voluptates dolore ut ex? Voluptas.",
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -194,7 +194,7 @@ const images = [
         chemin: "./images/Nour-Edde_Meuble-haut-bois-recycle",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo natus adipisci, eos soluta recusandae vitae explicabo illum rem, eaque tempora beatae porro vero quod? Cumque velit error quo sunt alias odit dolorum perferendis in, voluptatibus porro ducimus dicta illum officiis sequi minus. Corporis eligendi voluptates dolore ut ex? Voluptas.",
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -203,7 +203,7 @@ const images = [
         chemin: "./images/Nour-Edde_Porte-Manteau-Bois-Recycle",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo natus adipisci, eos soluta recusandae vitae explicabo illum rem, eaque tempora beatae porro vero quod? Cumque velit error quo sunt alias odit dolorum perferendis in, voluptatibus porro ducimus dicta illum officiis sequi minus. Corporis eligendi voluptates dolore ut ex? Voluptas.",
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -212,7 +212,7 @@ const images = [
         chemin: "./images/Nour-Edde_Table-basse-bois-recycle-2",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo natus adipisci, eos soluta recusandae vitae explicabo illum rem, eaque tempora beatae porro vero quod? Cumque velit error quo sunt alias odit dolorum perferendis in, voluptatibus porro ducimus dicta illum officiis sequi minus. Corporis eligendi voluptates dolore ut ex? Voluptas.",
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -221,7 +221,7 @@ const images = [
         chemin: "./images/Nour-Edde_Table-basse-bois-recycle",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo natus adipisci, eos soluta recusandae vitae explicabo illum rem, eaque tempora beatae porro vero quod? Cumque velit error quo sunt alias odit dolorum perferendis in, voluptatibus porro ducimus dicta illum officiis sequi minus. Corporis eligendi voluptates dolore ut ex? Voluptas.",
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -230,7 +230,7 @@ const images = [
         chemin: "./images/Nour-Edde_Table-Bois-Recycle",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo natus adipisci, eos soluta recusandae vitae explicabo illum rem, eaque tempora beatae porro vero quod? Cumque velit error quo sunt alias odit dolorum perferendis in, voluptatibus porro ducimus dicta illum officiis sequi minus. Corporis eligendi voluptates dolore ut ex? Voluptas.",
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -239,7 +239,7 @@ const images = [
         chemin: "./images/Nour-Edde_Detail-finition-meuble",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo natus adipisci, eos soluta recusandae vitae explicabo illum rem, eaque tempora beatae porro vero quod? Cumque velit error quo sunt alias odit dolorum perferendis in, voluptatibus porro ducimus dicta illum officiis sequi minus. Corporis eligendi voluptates dolore ut ex? Voluptas.",
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
 ];

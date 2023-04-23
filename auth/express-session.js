@@ -12,3 +12,31 @@
 //         //!! PROD => definir un session-store valid https://www.npmjs.com/package/express-session
 //     })
 // );
+// export default () => {
+//     axios.interceptors.request.use(function (requestConfig) {
+//         if (requestConfig.url.indexOf(<ALLOWED_DOMAIN>) > -1) {
+//             const token = localStorage.token;
+//             requestConfig.headers['Authorization'] = `Bearer ${token}`;
+//         }
+
+//         return requestConfig;
+//     }, function (error) {
+//         return Promise.reject(error);
+//     });
+
+// }
+// export default () => {
+//     axios.interceptors.request.use(
+//         (requestConfig) => {
+//             {
+//                 const token = localStorage.token;
+//                 requestConfig.headers["Authorization"] = `Bearer ${token}`;
+//             }
+
+//             return requestConfig;
+//         },
+//         (error) => {
+//             return Promise.reject(error);
+//         }
+//     );
+// };

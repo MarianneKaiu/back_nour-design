@@ -1,5 +1,5 @@
 module.exports = (sequelize, DataTypes) => {
-    return sequelize.define("image", {
+    return sequelize.define("categorie", {
         id: {
             type: DataTypes.INTEGER,
             autoIncrement: true,
@@ -7,14 +7,6 @@ module.exports = (sequelize, DataTypes) => {
         },
         name: {
             type: DataTypes.STRING,
-        },
-        chemin: {
-            type: DataTypes.STRING,
-        },
-        description: {
-            type: DataTypes.TEXT("long"),
-            allowEmpty: true,
-            allowNull: true,
         },
     });
 };

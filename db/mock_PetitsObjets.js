@@ -5,7 +5,7 @@ const petitsObjets = [
         description:
             "Lunette en fil de pêche de réemplois, qui sentent bon la marée",
         prix: 10,
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -14,7 +14,7 @@ const petitsObjets = [
         description:
             "Une vieille game boy qui ne fonctionnais plus, transformée en maison pour escargot.",
         prix: 42,
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
     {
@@ -23,7 +23,7 @@ const petitsObjets = [
         description:
             "Un IMAC de première génération réemployé en tapette à mouche dernière génération",
         prix: 21,
-        categorie: "Réemplois",
+
         createdAt: new Date(),
     },
 ];

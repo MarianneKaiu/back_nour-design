@@ -1,6 +1,6 @@
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-const privateKey = require("../auth/private_key");
+require("dotenv").config({ path: "./config/.env" });
 
 const { User } = require("../db/sequelize");
 
@@ -24,7 +24,7 @@ module.exports = (app) => {
 
                         const token = jwt.sign(
                             { userId: user.id },
-                            privateKey,
+                            process.env.AUTH_KEY,
                             { expiresIn: "24h" }
                         );
 
