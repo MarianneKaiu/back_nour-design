@@ -16,5 +16,8 @@ module.exports = (sequelize, DataTypes) => {
             allowEmpty: true,
             allowNull: true,
         },
+        categorieId: {
+            type: DataTypes.INTEGER,
+        },
     });
 };

@@ -1,8 +1,7 @@
 const { Comment } = require("../../db/sequelize");
-const auth = require("../../auth/auth");
 
 module.exports = (app) => {
-    app.delete("/api/comments/:id", auth, (req, res) => {
+    app.delete("/api/comments/:id", (req, res) => {
         Comment.findByPk(req.params.id).then((comment) => {
             const commentDeleted = comment;
             if (comment === null) {

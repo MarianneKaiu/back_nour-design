@@ -38,36 +38,12 @@ const Role = RoleModel(sequelize, DataTypes);
 const Categorie = CategorieModel(sequelize, DataTypes);
 
 const initDb = () => {
-    User.hasMany(Comment, {
-        foreignKey: {
-            name: "user_id",
-        },
-    });
-    Comment.belongsTo(User, {
-        foreignKey: {
-            name: "user_id",
-        },
-    });
-    User.belongsTo(Role, {
-        foreignKey: {
-            name: "role_id",
-        },
-    });
-    Role.hasMany(User, {
-        foreignKey: {
-            name: "user_id",
-        },
-    });
-    Image.belongsTo(Categorie, {
-        foreignKey: {
-            name: "image_id",
-        },
-    });
-    Categorie.hasMany(Image, {
-        foreignKey: {
-            name: "categorie_id",
-        },
-    });
+    User.hasMany(Comment);
+    Comment.belongsTo(User);
+    User.belongsTo(Role);
+    Role.hasMany(User);
+    Image.belongsTo(Categorie);
+    Categorie.hasMany(Image);
 
     return sequelize.sync().then(() => {
         console.log("Connécté à Maria !");

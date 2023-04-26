@@ -21,5 +21,8 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.STRING,
             required: true,
         },
+        roleId: {
+            type: DataTypes.INTEGER,
+        },
     });
 };
